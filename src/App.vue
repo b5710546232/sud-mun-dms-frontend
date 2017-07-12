@@ -17,6 +17,7 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul> -->
+    <h1>Hello</h1>
     <label for="from">Enter DOC ID</label>
     <br />
     <input type="text" v-model="docId" name="docID" id="docID" style="height: 20px; width: 200px;"/>
