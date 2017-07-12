@@ -5,7 +5,7 @@
 
     
   <!-- header  -->
-    <section class="hero is-dark">
+   <!-- <section class="hero is-dark">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -16,10 +16,10 @@
           </h2>
         </div>
       </div>
-    </section>
-
+    </section> -->
+<h1>Welcome to DMS App</h1>
 <!-- main  -->
-    <section class="section">
+    <section class="section"
      <div class="container">
       <label for="from">Enter DOC ID</label>
 
@@ -46,7 +46,7 @@
     </section>
 
 <!-- footer  -->  
-
+<!--
  	<footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
@@ -54,7 +54,7 @@
       </div>
     </div>
   </footer>
-
+-->
 
 
   </div>
