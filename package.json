@@ -4,10 +4,22 @@
   "version": "1.0.0",
   "author": "sudmun",
   "private": true,
+  "gh-pages-deploy": {
+    "staticpath": "dist",
+    "cname": "nope.org",
+    "prep": [
+      "build-sass",
+      "optimize-img"
+    ],
+    "post": [
+      "clean-source"
+    ],
+    "noprompt": false
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "deploy": "cross-env node node_modules/.bin/deploy-gh-pages -s ."
+    "deploy": "gh-pages-deploy"
   },
   "dependencies": {
     "axios": "^0.16.2",
