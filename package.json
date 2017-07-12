@@ -5,12 +5,6 @@
   "author": "sudmun",
   "private": true,
   "gh-pages-deploy": {
-    "staticpath": "dist",
-    "cname": "nope.org",
-    "prep": [
-      "build-sass",
-      "optimize-img"
-    ],
     "post": [
       "clean-source"
     ],
