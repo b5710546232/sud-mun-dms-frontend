@@ -20,6 +20,7 @@
   "dependencies": {
     "axios": "^0.16.2",
     "deploy-gh-pages": "1.0.0",
+    "gh-pages-deploy": "^0.4.2",
     "vue": "^2.3.3"
   },
   "devDependencies": {
