@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "deploy": "node node_modules/.bin/deploy-gh-pages -s ."
+    "deploy": "cross-env node node_modules/.bin/deploy-gh-pages -s ."
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -18,7 +18,7 @@
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-preset-env": "^1.5.1",
-    "cross-env": "^3.0.0",
+    "cross-env": "^5.0.1",
     "css-loader": "^0.25.0",
     "deploy-gh-pages": "1.0.0",
     "file-loader": "^0.9.0",
