@@ -14,12 +14,12 @@
     "post": [
       "clean-source"
     ],
-    "noprompt": false
+    "noprompt": true
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "deploy": "gh-pages-deploy"
+    "deploy": "npm run build && gh-pages-deploy"
   },
   "dependencies": {
     "axios": "^0.16.2",
